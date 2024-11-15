@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
+# expo-navigation-app
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este é um projeto básico em **React Native** usando **Expo** e **Bun** como gerenciador de pacotes. O objetivo deste projeto é explorar e testar algumas tecnologias e configurações no ecossistema React Native.
 
-## Get started
+## Funcionalidades
 
-1. Install dependencies
+- Configuração básica de navegação com **expo-router**.
+- Gerenciamento de dependências usando **Bun**.
+- Suporte para desenvolvimento rápido com **Expo**.
+- Estilização utilizando **NativeWind v4** para classes no estilo Tailwind.
+
+## Tecnologias Utilizadas
+
+- **React Native**: Framework para criação de aplicativos móveis.
+- **Expo**: Plataforma para desenvolvimento e execução de apps React Native.
+- **Bun**: Gerenciador de pacotes rápido e moderno.
+- **expo-router**: Navegação baseada em arquivos no estilo Next.js.
+- **NativeWind v4**: Utilitário de estilização que traz o poder do Tailwind CSS para React Native.
+
+## Instalação e Configuração
+
+1. Clone o repositório:
 
    ```bash
-   npm install
+   git clone https://github.com/carlosxfelipe/expo-navigation-app.git
+   cd expo-navigation-app
    ```
 
-2. Start the app
+2. Instale as dependências usando Bun:
 
    ```bash
-    npx expo start
+   bun install
    ```
 
-In the output, you'll find options to open the app in a
+3. Inicie o servidor de desenvolvimento:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   ```bash
+   bun start
+   ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+4. Escaneie o QR code com o **Expo Go** no seu dispositivo ou execute em um emulador.
 
-## Get a fresh project
+---
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Criado para fins de aprendizado e experimentação. 🚀
