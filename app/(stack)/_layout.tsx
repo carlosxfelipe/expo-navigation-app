@@ -13,7 +13,7 @@ const StackLayout = () => {
       <Stack.Screen
         name="home/index"
         options={{
-          title: "Home Screen",
+          title: "Início",
         }}
       />
       <Stack.Screen
