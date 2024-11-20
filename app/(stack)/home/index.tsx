@@ -11,7 +11,7 @@ const HomeScreen = () => {
           onPress={() => router.push("/products")}
         /> */}
         <Link href="/products" asChild>
-          <CustomButton className="mb-2" children="Produtos" />
+          <CustomButton className="my-2" children="Produtos" />
         </Link>
         <Link href="/profile" asChild>
           <CustomButton className="mb-2" children="Perfil" color="secondary" />
