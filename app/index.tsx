@@ -18,8 +18,8 @@ const App = () => {
   //   </SafeAreaView>
   // );
 
-  return <Redirect href="/home" />;
-  // return <Redirect href="/tabs/" />;
+  // return <Redirect href="/home" />;
+  return <Redirect href="/tabs/" />;
 };
 
 export default App;
