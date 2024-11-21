@@ -19,6 +19,7 @@ const App = () => {
   // );
 
   return <Redirect href="/home" />;
+  // return <Redirect href="/tabs/" />;
 };
 
 export default App;
