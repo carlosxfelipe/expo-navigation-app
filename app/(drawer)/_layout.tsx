@@ -18,7 +18,7 @@ const DrawerLayout: React.FC = () => {
       }}
     >
       <Drawer.Screen
-        name="tabs"
+        name="(tabs)"
         options={{
           drawerLabel: "Tabs + Stack",
           title: "Tabs + Stack",
