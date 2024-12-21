@@ -10,13 +10,13 @@ const HomeScreen = () => {
           children="Produtos"
           onPress={() => router.push("/products")}
         /> */}
-        <Link href="/tabs/(stack)/products" asChild>
+        <Link href="/drawer/tabs/(stack)/products" asChild>
           <CustomButton className="my-2" children="Produtos" />
         </Link>
-        <Link href="/tabs/(stack)/profile" asChild>
+        <Link href="/drawer/tabs/(stack)/profile" asChild>
           <CustomButton className="mb-2" children="Perfil" color="secondary" />
         </Link>
-        <Link href="/tabs/(stack)/settings" asChild>
+        <Link href="/drawer/tabs/(stack)/settings" asChild>
           <CustomButton
             className="mb-2"
             children="Configurações"
